@@ -26,15 +26,15 @@
 defined('MOODLE_INTERNAL') || die();
 
 // The name of the second tab in the theme settings.
-$string['advancedsettings'] = 'Advanced settings';
+$string['advancedsettings'] = 'Configurações avançadas';
 // The backgrounds tab name.
 $string['backgrounds'] = 'Backgrounds';
 // The brand colour setting.
-$string['brandcolor'] = 'Brand colour';
+$string['brandcolor'] = 'Cor da marca';
 // The brand colour setting description.
-$string['brandcolor_desc'] = 'The accent colour.';
+$string['brandcolor_desc'] = 'Cor de destaque.';
 // A description shown in the admin theme selector.
-$string['choosereadme'] = 'Theme photo is a child theme of Boost. It adds the ability to upload background photos.';
+$string['choosereadme'] = 'A foto do tema é um tema filho derivado do tema Boost. Ele adiciona a capacidade de fazer upload de fotos de fundo.';
 // Name of the settings pages.
 $string['configtitle'] = 'Photo settings';
 // Background image for dashboard page.
