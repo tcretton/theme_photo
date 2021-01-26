@@ -34,11 +34,11 @@ $string['brandcolor'] = 'Cor da marca';
 // The brand colour setting description.
 $string['brandcolor_desc'] = 'Cor de destaque.';
 // A description shown in the admin theme selector.
-$string['choosereadme'] = 'A foto do tema é um tema filho derivado do tema Boost. Ele adiciona a capacidade de fazer upload de fotos de fundo.';
+$string['choosereadme'] = 'Photo é um tema filho derivado do tema Boost. Ele adiciona a capacidade de fazer upload de fotos de fundo.';
 // Name of the settings pages.
-$string['configtitle'] = 'Photo settings';
+$string['configtitle'] = 'Photo configurações';
 // Background image for dashboard page.
-$string['dashboardbackgroundimage'] = 'Dashboard page background image';
+$string['dashboardbackgroundimage'] = 'Imagem de fundo da página do painel';
 // Background image for dashboard page.
 $string['dashboardbackgroundimage_desc'] = 'An image that will be stretched to fill the background of the dashboard page.';
 // Background image for default page.
