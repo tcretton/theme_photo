@@ -13,15 +13,14 @@
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-// This line protects the file from being accessed by a URL directly.
 defined('MOODLE_INTERNAL') || die();
 
-// $THEME is defined before this page is included and we can define settings by adding properties to this global object.
 
-// The first setting we need is the name of the theme. This should be the last part of the component name, and the same as the directory name for our theme.
+// A primeira configuração de que precisamos é o nome do tema. Esta deve ser a última parte do nome do componente e igual ao nome do diretório do nosso tema.
 $THEME->name = 'photo';
 
 // This setting list the style sheets we want to include in our theme. Because we want to use SCSS instead of CSS - we won't list any style sheets. If we did we would list the name of a file in the /styles/ folder for our theme without any css file extensions.
+// Esta configuração lista as folhas de estilo que queremos incluir em nosso tema. Porque queremos usar SCSS em vez de CSS - não listaremos nenhuma folha de estilo. Se o fizéssemos, listaríamos o nome de um arquivo na pasta / styles / do nosso tema sem nenhuma extensão de arquivo css.
 $THEME->sheets = [];
 
 // This is a setting that can be used to provide some styling to the content in the TinyMCE text editor. This is no longer the default text editor and "Atto" does not need this setting so we won't provide anything. If we did it would work the same as the previous setting - listing a file in the /styles/ folder.
