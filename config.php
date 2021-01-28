@@ -16,7 +16,7 @@
 // Esta linha protege o arquivo de ser acessado diretamente por uma URL.
 defined('MOODLE_INTERNAL') || die();
 
-// $THEME é definido antes que esta página seja incluída e podemos definir as configurações adicionando propriedades a este objeto global.
+// $THEME é definido antes que esta página seja carregada e podemos definir as configurações adicionando propriedades a este objeto global.
 
 // A primeira configuração de que precisamos é o nome do tema. Esta deve ser a última parte do nome do componente e igual ao nome do diretório do nosso tema.
 $THEME->name = 'photo';
