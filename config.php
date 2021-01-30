@@ -30,7 +30,7 @@ $THEME->sheets = [];
 $THEME->editor_sheets = [];
 
 // This is a critical setting. We want to inherit from theme_boost because it provides a great starting point for SCSS bootstrap4 themes. We could add more than one parent here to inherit from multiple parents, and if we did they would be processed in order of importance (later themes overriding earlier ones). Things we will inherit from the parent theme include styles and mustache templates and some (not all) settings.
-// Este é um cenário crítico. Queremos herdar de theme_boost porque ele fornece um ótimo ponto de partida para temas SCSS bootstrap4. Poderíamos adicionar mais de um pai aqui para herdar de vários pais e, se o fizéssemos, eles seriam processados em ordem de importância (temas posteriores substituindo os anteriores). As coisas que herdaremos do tema pai incluem estilos e modelos de bigode e algumas (não todas) configurações.
+// Este é uma configuração importante. Queremos herdar de theme_boost porque ele fornece um ótimo ponto de partida para temas SCSS bootstrap4. As coisas que herdaremos do tema pai incluem estilos e modelos de bigode e algumas (não todas) configurações.
 $THEME->parents = ['boost'];
 
 // A dock is a way to take blocks out of the page and put them in a persistent floating area on the side of the page. Boost does not support a dock so we won't either - but look at bootstrapbase for an example of a theme with a dock.
