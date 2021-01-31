@@ -79,7 +79,6 @@ function theme_photo_update_settings_images($settingname) {
     // This is the component name the setting is stored in.
     $component = 'theme_photo';
 
-
     // This is the value of the admin setting which is the filename of the uploaded file.
     $filename = get_config($component, $settingname);
     // We extract the file extension because we want to preserve it.
