@@ -1,18 +1,11 @@
 <?php
 // This file is part of Moodle - http://moodle.org/
 //
-// Moodle is free software: you can redistribute it and/or modify
-// it under the terms of the GNU General Public License as published by
-// the Free Software Foundation, either version 3 of the License, or
-// (at your option) any later version.
+// Moodle is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 //
-// Moodle is distributed in the hope that it will be useful,
-// but WITHOUT ANY WARRANTY; without even the implied warranty of
-// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-// GNU General Public License for more details.
+// Moodle is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 //
-// You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// You should have received a copy of the GNU General Public License along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
  * Language file.
@@ -40,42 +33,42 @@ $string['configtitle'] = 'Photo configurações';
 // Background image for dashboard page.
 $string['dashboardbackgroundimage'] = 'Imagem de fundo da página do painel';
 // Background image for dashboard page.
-$string['dashboardbackgroundimage_desc'] = 'An image that will be stretched to fill the background of the dashboard page.';
+$string['dashboardbackgroundimage_desc'] = 'Uma imagem que será ampliada para preencher o plano de fundo da página do painel.';
 // Background image for default page.
-$string['defaultbackgroundimage'] = 'Default page background image';
+$string['defaultbackgroundimage'] = 'Imagem de fundo da página padrão.';
 // Background image for default page.
-$string['defaultbackgroundimage_desc'] = 'An image that will be stretched to fill the background of all pages without a more specific background image.';
+$string['defaultbackgroundimage_desc'] = 'Uma imagem que será esticada para preencher o fundo de todas as páginas sem uma imagem de fundo mais específica.';
 // Background image for front page.
-$string['frontpagebackgroundimage'] = 'Front page background image';
+$string['frontpagebackgroundimage'] = 'Imagem de fundo da primeira página.';
 // Background image for front page.
-$string['frontpagebackgroundimage_desc'] = 'An image that will be stretched to fill the background of the front page.';
+$string['frontpagebackgroundimage_desc'] = 'Uma imagem que será ampliada para preencher o fundo da primeira página.';
 // Name of the first settings tab.
-$string['generalsettings'] = 'General settings';
+$string['generalsettings'] = 'Configurações gerais';
 // Background image for incourse page.
-$string['incoursebackgroundimage'] = 'Course page background image';
+$string['incoursebackgroundimage'] = 'Imagem de fundo da página do curso.';
 // Background image for incourse page.
-$string['incoursebackgroundimage_desc'] = 'An image that will be stretched to fill the background of course pages.';
+$string['incoursebackgroundimage_desc'] = 'Uma imagem que será ampliada para preencher o plano de fundo das páginas do curso.';
 // Background image for login page.
-$string['loginbackgroundimage'] = 'Login page background image';
+$string['loginbackgroundimage'] = 'Imagem de fundo da página de login';
 // Background image for login page.
-$string['loginbackgroundimage_desc'] = 'An image that will be stretched to fill the background of the login page.';
+$string['loginbackgroundimage_desc'] = 'Uma imagem que será ampliada para preencher o plano de fundo da página de login.';
 // The name of our plugin.
 $string['pluginname'] = 'Photo';
 // Preset files setting.
-$string['presetfiles'] = 'Additional theme preset files';
+$string['presetfiles'] = 'Arquivos adicionais de predefinição de tema';
 // Preset files help text.
-$string['presetfiles_desc'] = 'Preset files can be used to dramatically alter the appearance of the theme. See <a href=https://docs.moodle.org/dev/Boost_Presets>Boost presets</a> for information on creating and sharing your own preset files, and see the <a href=http://moodle.net/boost>Presets repository</a> for presets that others have shared.';
+$string['presetfiles_desc'] = 'Os arquivos predefinidos podem ser usados para alterar drasticamente a aparência do tema. Veja <a href=https://docs.moodle.org/dev/Boost_Presets>Boost presets</a> para obter informações sobre como criar e compartilhar seus próprios arquivos predefinidos e consulte o <a href=http://moodle.net/boost>Repositório de Presets</a> para predefinições que outras pessoas compartilharam.';
 // Preset setting.
 $string['preset'] = 'Theme preset';
 // Preset help text.
-$string['preset_desc'] = 'Pick a preset to broadly change the look of the theme.';
+$string['preset_desc'] = 'Escolha uma predefinição para alterar amplamente a aparência do tema.';
 // Raw SCSS setting.
-$string['rawscss'] = 'Raw SCSS';
+$string['rawscss'] = 'SCSS bruto';
 // Raw SCSS setting help text.
-$string['rawscss_desc'] = 'Use this field to provide SCSS or CSS code which will be injected at the end of the style sheet.';
+$string['rawscss_desc'] = 'Escolha uma predefinição para alterar amplamente a aparência do tema. Use este campo para fornecer código SCSS ou CSS que será injetado no final da folha de estilo.';
 // Raw initial SCSS setting.
-$string['rawscsspre'] = 'Raw initial SCSS';
+$string['rawscsspre'] = 'SCSS inicial bruto';
 // Raw initial SCSS setting help text.
-$string['rawscsspre_desc'] = 'In this field you can provide initialising SCSS code, it will be injected before everything else. Most of the time you will use this setting to define variables.';
+$string['rawscsspre_desc'] = 'Neste campo você pode fornecer o código SCSS de inicialização, ele será injetado antes de tudo. Na maioria das vezes, você usará essa configuração para definir variáveis.';
 // We need to include a lang string for each block region.
-$string['region-side-pre'] = 'Right';
+$string['region-side-pre'] = 'Direita';
